@@ -1,0 +1,25 @@
+$r: #e17777;
+$w: 400px;
+
+.box {
+  display: flex;
+  background: $r;
+  width: $w;
+  height: $w;
+}
+
+nav {
+  ul {
+    list-style: none;
+    li {
+      display: inline;
+      a {
+        text-decoration: none;
+        color: $r;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+$brand: #000;
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $brand;
+}
+nav {
+    display: block;
+    ul {
+        list-style: none;
+        li {
+            display: inline;
+            a {
+
+            }
+            &:hover 
+            {
+                text-decoration: none;
+            }
+        }
+    }
+}
+@mixin abc($www, $hh, $bb) {
+    width: $ww; height: $hh; background: $bb;
+
+
+}
+
+.cleft {
+    @include abc(200px, 200px, yellow)
+}
+
+.cright {
+    @include abc(100px, 100px, green)
+}

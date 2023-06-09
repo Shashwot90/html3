@@ -1,0 +1,72 @@
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #e17777;
+  width: 400px;
+  height: 400px;
+}
+
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #e17777;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.cleft {
+  width: 200px;
+  height: 200px;
+  background: red;
+}
+
+.cright {
+  width: 100px;
+  height: 300px;
+  background: yellow;
+}
+
+.efg, .right, .left {
+  width: 66.6666666667%;
+  height: 200px;
+  float: left;
+}
+
+.left {
+  background: yellow;
+}
+
+.right {
+  background: green;
+}
+
+.box-40px {
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+}
+
+.box-50px {
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+}
+
+.box-60px {
+  width: 60px;
+  height: 60px;
+  font-size: 60px;
+}
+
+.box-90px {
+  width: 90px;
+  height: 90px;
+  font-size: 90px;
+}/*# sourceMappingURL=style.css.map */

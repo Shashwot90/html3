@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{ background: pink; grid-area: a; padding: 100px;}
+        .b{grid-area: b;}
+        .c{grid-area: c;}
+        .d{grid-area: d;}
+        .box { border: 10px solid #fff;  }
+        .grid {display: grid; grid-template-areas: 'a a a' 'b c d';}
+        .img { background-color: pink; width: 100%; height: 100px;}
+
+
+        @media(min-width: 481px) and (max-width: 768px){
+            .grid{ grid-template-columns: auto;}
+        .box{ grid-template-columns: auto auto; display: grid; gap: 20px;}
+        }
+        @media (max-width: 480px) { 
+            .grid { grid-template-areas: '';}
+        }
+    </style>
+</head>
+<body>
+    
+        <div class="grid">
+            <div class="box a">
+                 </div>
+            <div class="box b">
+                 </div>
+            <div class="box c">
+                 </div>
+                 <div class="box d">
+                </div>
+        </div>
+     
+</body>
+</html>

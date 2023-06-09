@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Mulish&family=Poppins:wght@300;400;500;600&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.l {
+    float: left;
+}
+.r {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+body {
+    background: #A1A1A1;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+p {
+    line-height: 1.6;
+    font-size: 14px;
+}
+.w {
+    line-height: 1.8;
+}
+.c {
+    font-size: 14px;
+}
+.page {
+    width: 940px;
+    background: #fff;
+    margin: auto;
+}
+.info {
+    text-align: right;
+    padding: 10px 10px 0 0;
+}
+header {
+    border-bottom: 10px solid #A1A1A1;
+}
+main {
+    width: 75%;
+}
+aside {
+    width: 25%;
+    padding-left: 20px;
+     
+}
+.q {
+    border-right:1px solid black;
+    padding-right: 10px;
+}
+.e {
+    text-decoration: none;
+    color: #044470;
+}
+p a:hover{
+    color: red;
+    text-decoration: underline;
+
+}
+section {
+    padding: 10px;
+     
+}
+footer {
+    background: #044470;
+    color: #fff;
+    padding: 10px;
+}
+.p {
+    padding-top: 15px;
+}
+.t {
+    padding-top: 10px;
+}
+ul {
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+}
+nav li a{
+    background: #0D4972;
+    padding: 3px 10px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+nav a:hover, .active a {
+    color: red;
+    background: #A1A1A1;
+}
+.b {
+    padding-bottom: 10px ;
+}
+.d {
+    border: 1px solid #A1A1A1;
+    border-radius: 5px;
+}
+.i {
+    margin-right: 15px;
+}
+.v {
+    padding: 3px;
+}

@@ -1,0 +1,37 @@
+@import 'header';
+@mixin abc($w, $h, $bg:yellow) { //for different values used to make responsive websites easy
+    width: $w;
+    height: $h;
+    background: $bg;
+}
+.cleft {
+    @include abc(200px,200px, red)
+}
+.cright {
+    @include abc(100px, 300px)
+}
+.efg {
+    width: 200px/ 300px * 100%;
+    height: 200px;
+    float: left;
+}
+
+.left {
+    @extend .efg;
+    background: yellow;
+}
+.right {
+    @extend .efg;
+    background: green;
+}
+
+$sizes: 40px, 50px,60px,90px;//if values same
+@each $s in $sizes {
+    .box-#{$s} //# is used to combine the variable with classname
+    {
+        width: $s;
+        height: $s;
+        font-size: $s;
+
+    }
+}

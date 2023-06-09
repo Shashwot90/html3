@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.con {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.top{
+    background: #FEF7F6;
+    font-size: 13px;
+    line-height: 50px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    padding: 15px 0;
+}
+
+nav {
+    
+    justify-content: space-around;
+}
+.banner{
+    background: url(https://sangalotech.com/html/03/images/bg-1.jpg);
+    height: 80vh;
+    overflow: hidden;
+}
+
+.bleft{ 
+    flex-basis: 60%;
+}
+.bleft{ 
+    flex-basis: 40%;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .banner {
+            background: #ffc0cb;
+             height: 250px;
+        }
+        .grid {  
+            display: grid;
+            grid-template-columns: auto auto auto ;
+            gap: 20px;
+            margin: 20px 0;}
+        .img { height: 130px; background: pink;}
+        @media(min-width: 481px) and (max-width: 768px){
+            .grid{ grid-template-columns: auto;}
+        .box{ grid-template-columns: auto auto; display: grid; gap: 20px;}
+        }
+        @media (max-width: 480px) { 
+            .grid { grid-template-columns: auto;}
+        }
+    </style>
+</head>
+<body>
+    <div class="banner"></div> 
+        <div class="grid">
+            <div class="box">
+                <div class="img"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, itaque.</p>
+            </div>
+            <div class="box">
+                <div class="img"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, itaque.</p>
+            </div>
+            <div class="box">
+                <div class="img"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, itaque.</p>
+            </div>
+        </div>
+     
+</body>
+</html>
